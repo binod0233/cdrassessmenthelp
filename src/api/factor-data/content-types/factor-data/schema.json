@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "factor_datas",
+  "info": {
+    "singularName": "factor-data",
+    "pluralName": "factor-datas",
+    "displayName": "FactorData"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
