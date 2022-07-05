@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing1s",
+  "info": {
+    "singularName": "landing1",
+    "pluralName": "landing1s",
+    "displayName": "Landing1",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "head": {
+      "type": "string"
+    },
+    "hero": {
+      "type": "string"
+    },
+    "content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.content"
+    },
+    "factor": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::factor-data.factor-data"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing2s",
+  "info": {
+    "singularName": "landing2",
+    "pluralName": "landing2s",
+    "displayName": "Landing2",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading1": {
+      "type": "string"
+    },
+    "heading2": {
+      "type": "string"
+    },
+    "heading3": {
+      "type": "string"
+    },
+    "heading4": {
+      "type": "string"
+    },
+    "heading5": {
+      "type": "string"
+    },
+    "paragraph1": {
+      "type": "richtext"
+    },
+    "paragraph2": {
+      "type": "richtext"
+    },
+    "paragraph3": {
+      "type": "richtext"
+    },
+    "paragraph4": {
+      "type": "richtext"
+    },
+    "paragraph5": {
+      "type": "richtext"
+    },
+    "heading6": {
+      "type": "string"
+    },
+    "heading7": {
+      "type": "string"
+    },
+    "paragraph6": {
+      "type": "richtext"
+    },
+    "heading8": {
+      "type": "string"
+    }
+  }
+}
