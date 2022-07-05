@@ -1,13 +1,4 @@
-// module.exports = ({ env }) => ({
-//   // ...
-//   seo: {
-//     enabled: true,
-//   },
-//   ckeditor: true,
-//   // ...
-// });
-
-module.exports = () => {
+module.exports = ({ env }) => {
   return {
     seo: {
       enabled: true,
@@ -104,17 +95,25 @@ module.exports = () => {
             decorators: [
               {
                 mode: "manual",
-                label: "noreferrer noopener",
-
+                label: "noopener  _blank",
                 defaultValue: false, // This option will be selected by default.
                 attributes: {
                   target: "_blank",
-                  rel: "noreferrer noopener",
+                  rel: "noopener ",
                 },
               },
               {
                 mode: "manual",
-                label: "dofollow ",
+                label: "noreferrer _blank ",
+                defaultValue: false, // This option will be selected by default.
+                attributes: {
+                  target: "_blank",
+                  rel: "noreferrer ",
+                },
+              },
+              {
+                mode: "manual",
+                label: "dofollow  _blank",
                 defaultValue: false, // This option will be selected by default.
                 attributes: {
                   target: "_blank",
@@ -123,10 +122,46 @@ module.exports = () => {
               },
               {
                 mode: "manual",
-                label: "nofollow ",
+                label: "nofollow  _blank",
                 defaultValue: false, // This option will be selected by default.
                 attributes: {
                   target: "_blank",
+                  rel: "nofollow ",
+                },
+              },
+              {
+                mode: "manual",
+                label: "noopener ",
+
+                defaultValue: false, // This option will be selected by default.
+                attributes: {
+                  rel: "noopener ",
+                },
+              },
+              {
+                mode: "manual",
+                label: "noreferrer ",
+
+                defaultValue: false, // This option will be selected by default.
+                attributes: {
+                  rel: "noreferrer ",
+                },
+              },
+              {
+                mode: "manual",
+                label: "dofollow ",
+
+                defaultValue: false, // This option will be selected by default.
+                attributes: {
+                  rel: "dofollow ",
+                },
+              },
+              {
+                mode: "manual",
+                label: "nofollow ",
+
+                defaultValue: false, // This option will be selected by default.
+                attributes: {
                   rel: "nofollow ",
                 },
               },
@@ -266,9 +301,9 @@ module.exports = () => {
       config: {
         provider: "cloudinary",
         providerOptions: {
-          cloud_name: "copenned",
-          api_key: "894419846148746",
-          api_secret: "B0UG-delGStBh0AWq0y6oJoxASo",
+          cloud_name: env("CLOUDINARY_NAME"),
+          api_key: env("CLOUDINARY_KEY"),
+          api_secret: env("CLOUDINARY_SECRET"),
         },
         actionOptions: {
           upload: {},
