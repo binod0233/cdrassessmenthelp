@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cdr_sample_lists",
+  "info": {
+    "singularName": "cdr-sample-list",
+    "pluralName": "cdr-sample-lists",
+    "displayName": "cdr-sample-list"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "paragraph": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

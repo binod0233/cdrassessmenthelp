@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "contact",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.slices-type1"
+    },
+    "address": {
+      "type": "component",
+      "repeatable": true,
+      "component": "url.url"
+    },
+    "shared": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::shared.shared"
+    }
+  }
+}

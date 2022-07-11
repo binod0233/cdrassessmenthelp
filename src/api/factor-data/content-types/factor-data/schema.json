@@ -34,11 +34,6 @@
     },
     "name": {
       "type": "richtext"
-    },
-    "seo": {
-      "type": "component",
-      "repeatable": true,
-      "component": "shared.seo"
     }
   }
 }

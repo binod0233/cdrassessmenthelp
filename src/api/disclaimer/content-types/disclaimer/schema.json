@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "disclaimers",
+  "info": {
+    "singularName": "disclaimer",
+    "pluralName": "disclaimers",
+    "displayName": "disclaimer"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slices.slices-type1"
+    },
+    "shared": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::shared.shared"
+    }
+  }
+}

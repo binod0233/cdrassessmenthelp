@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cdrsamples",
+  "info": {
+    "singularName": "cdrsample",
+    "pluralName": "cdrsamples",
+    "displayName": "cdrsample",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "paragraph": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "addcontent": {
+      "type": "dynamiczone",
+      "components": [
+        "slices.slices-type1",
+        "slices.slices-type2",
+        "slices.slices-type3",
+        "slices.t-i"
+      ]
+    },
+    "cdr_sample_lists": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::cdr-sample-list.cdr-sample-list"
+    },
+    "choosebest": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing.hero"
+    }
+  }
+}

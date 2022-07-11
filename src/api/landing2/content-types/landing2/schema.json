@@ -4,7 +4,7 @@
   "info": {
     "singularName": "landing2",
     "pluralName": "landing2s",
-    "displayName": "Landing",
+    "displayName": "Landing1",
     "description": ""
   },
   "options": {
@@ -97,6 +97,11 @@
         "videos",
         "audios"
       ]
+    },
+    "factor_data": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::factor-data.factor-data"
     }
   }
 }

@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shareds",
+  "info": {
+    "singularName": "shared",
+    "pluralName": "shareds",
+    "displayName": "shared",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "choose": {
+      "type": "dynamiczone",
+      "components": [
+        "slices.slices-type1",
+        "slices.slices-type2",
+        "slices.slices-type3",
+        "slices.t-i"
+      ]
+    }
+  }
+}

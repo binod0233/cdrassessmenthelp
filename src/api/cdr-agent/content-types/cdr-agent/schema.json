@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cdr_agents",
+  "info": {
+    "singularName": "cdr-agent",
+    "pluralName": "cdr-agents",
+    "displayName": "cdr-agent"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "url.url"
+    }
+  }
+}

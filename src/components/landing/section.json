@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_landing_sections",
+  "info": {
+    "displayName": "about",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "about": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.slices-type2"
+    }
+  }
+}

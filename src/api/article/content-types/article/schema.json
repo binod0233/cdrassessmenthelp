@@ -18,10 +18,9 @@
     "body": {
       "type": "richtext"
     },
-    "seo": {
-      "type": "component",
-      "repeatable": true,
-      "component": "shared.seo"
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
     }
   }
 }

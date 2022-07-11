@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "our_agents",
+  "info": {
+    "singularName": "our-agent",
+    "pluralName": "our-agents",
+    "displayName": "our-agent",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.slices-type1"
+    },
+    "cdr_agents": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::cdr-agent.cdr-agent"
+    }
+  }
+}

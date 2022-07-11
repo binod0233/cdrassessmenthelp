@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "faqs",
+  "info": {
+    "singularName": "faq",
+    "pluralName": "faqs",
+    "displayName": "faq",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.slices-type2"
+    },
+    "content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.slices-type1"
+    },
+    "title": {
+      "type": "string"
+    },
+    "shared": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::shared.shared"
+    }
+  }
+}

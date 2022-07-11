@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_landing_heroes",
+  "info": {
+    "displayName": "hero",
+    "icon": "user-plus",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "paragraph": {
+      "type": "richtext"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "url.url"
+    }
+  }
+}

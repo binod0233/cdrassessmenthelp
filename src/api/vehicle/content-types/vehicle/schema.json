@@ -17,8 +17,8 @@
     },
     "seo": {
       "type": "component",
-      "repeatable": true,
-      "component": "seo.seo"
+      "repeatable": false,
+      "component": "shared.seo"
     }
   }
 }

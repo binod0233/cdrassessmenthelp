@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_slices_t_is",
+  "info": {
+    "displayName": "t-i",
+    "icon": "plus"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
