@@ -1,11 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "shareds",
+  "collectionName": "cdr_service_datas",
   "info": {
-    "singularName": "shared",
-    "pluralName": "shareds",
-    "displayName": "shared",
-    "description": ""
+    "singularName": "cdr-service-data",
+    "pluralName": "cdr-service-datas",
+    "displayName": "cdr-service-data"
   },
   "options": {
     "draftAndPublish": true
@@ -14,6 +13,16 @@
   "attributes": {
     "title": {
       "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     },
     "paragraph": {
       "type": "richtext"

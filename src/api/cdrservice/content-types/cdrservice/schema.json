@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cdrservices",
+  "info": {
+    "singularName": "cdrservice",
+    "pluralName": "cdrservices",
+    "displayName": "cdrservice",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "paragraph": {
+      "type": "richtext"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "url.url"
+    },
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "slices.slices-type1",
+        "slices.slices-type2",
+        "slices.slices-type3",
+        "slices.t-i"
+      ]
+    },
+    "repeat_data": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slices.slices-type2"
+    }
+  }
+}

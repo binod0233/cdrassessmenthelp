@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "privacy_policies",
+  "info": {
+    "singularName": "privacy-policy",
+    "pluralName": "privacy-policies",
+    "displayName": "privacy-policy"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.slices-type1"
+    },
+    "content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slices.slices-type1"
+    }
+  }
+}
