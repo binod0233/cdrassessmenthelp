@@ -12,11 +12,6 @@
     },
     "paragraph": {
       "type": "richtext"
-    },
-    "button": {
-      "type": "component",
-      "repeatable": false,
-      "component": "url.url"
     }
   }
 }

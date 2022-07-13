@@ -64,6 +64,11 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::shared.shared"
+    },
+    "faq_data": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::faq-data.faq-data"
     }
   }
 }
