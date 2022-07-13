@@ -21,6 +21,11 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::cdr-agent.cdr-agent"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
     }
   }
 }

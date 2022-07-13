@@ -27,12 +27,7 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+      "allowedTypes": ["images", "files", "videos", "audios"]
     },
     "addcontent": {
       "type": "dynamiczone",
@@ -52,6 +47,11 @@
       "type": "component",
       "repeatable": false,
       "component": "landing.hero"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
     }
   }
 }
