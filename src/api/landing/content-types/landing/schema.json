@@ -22,18 +22,23 @@
       "repeatable": true,
       "component": "slices.slices-type2"
     },
+    "factor": {
+      "type": "string"
+    },
     "Approval": {
       "type": "component",
       "repeatable": false,
       "component": "landing.hero"
     },
-    "steps": {
+    "assure": {
       "type": "component",
       "repeatable": false,
       "component": "slices.slices-type1"
     },
-    "factor": {
-      "type": "string"
+    "steps": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.slices-type1"
     },
     "factor_data": {
       "type": "relation",
@@ -54,11 +59,6 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.seo"
-    },
-    "assure": {
-      "type": "component",
-      "repeatable": false,
-      "component": "slices.slices-type1"
     },
     "shared": {
       "type": "relation",
