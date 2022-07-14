@@ -22,24 +22,10 @@
     "paragraph": {
       "type": "richtext"
     },
-    "button": {
+    "content": {
       "type": "component",
       "repeatable": false,
-      "component": "url.url"
-    },
-    "content": {
-      "type": "dynamiczone",
-      "components": [
-        "slices.slices-type1",
-        "slices.slices-type2",
-        "slices.slices-type3",
-        "slices.t-i"
-      ]
-    },
-    "repeat_data": {
-      "type": "component",
-      "repeatable": true,
-      "component": "slices.slices-type2"
+      "component": "slices.slices-type1"
     }
   }
 }
