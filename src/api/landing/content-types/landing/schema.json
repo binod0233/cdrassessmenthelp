@@ -47,7 +47,7 @@
     },
     "step": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "oneToMany",
       "target": "api::step.step"
     },
     "faq": {
