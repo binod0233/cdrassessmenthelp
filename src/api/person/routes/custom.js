@@ -4,7 +4,7 @@ module.exports = {
   routes: [
     {
       method: "GET",
-      path: "/people/:slug",
+      path: "/people/:id",
       handler: "person.findOne",
       config: {
         auth: false,

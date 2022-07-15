@@ -312,5 +312,16 @@ module.exports = ({ env }) => {
         },
       },
     },
+    slugify: {
+      enabled: true,
+      config: {
+        contentTypes: {
+          cdrservices: {
+            field: "slug",
+            references: "title",
+          },
+        },
+      },
+    },
   };
 };
