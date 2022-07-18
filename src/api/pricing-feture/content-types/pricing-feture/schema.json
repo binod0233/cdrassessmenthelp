@@ -1,0 +1,14 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pricing_fetures",
+  "info": {
+    "singularName": "pricing-feture",
+    "pluralName": "pricing-fetures",
+    "displayName": "pricing-feature"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {}
+}

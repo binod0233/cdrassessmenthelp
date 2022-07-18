@@ -1,11 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "pricings",
+  "collectionName": "cdr_blogs",
   "info": {
-    "singularName": "pricing",
-    "pluralName": "pricings",
-    "displayName": "pricing",
-    "description": ""
+    "singularName": "cdr-blog",
+    "pluralName": "cdr-blogs",
+    "displayName": "cdr-blog"
   },
   "options": {
     "draftAndPublish": true
@@ -13,11 +12,6 @@
   "pluginOptions": {},
   "attributes": {
     "hero": {
-      "type": "component",
-      "repeatable": false,
-      "component": "slices.slices-type2"
-    },
-    "plan": {
       "type": "component",
       "repeatable": false,
       "component": "slices.slices-type1"
