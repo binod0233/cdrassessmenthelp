@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * landing2 router.
+ * test router.
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::landing2.landing2');
+module.exports = createCoreRouter('api::test.test');

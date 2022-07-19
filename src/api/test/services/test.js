@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * landing2 service.
+ * test service.
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::landing2.landing2');
+module.exports = createCoreService('api::test.test');
