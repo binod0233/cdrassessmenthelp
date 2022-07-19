@@ -12,46 +12,33 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.slices-type2"
+    },
+    "title1": {
       "type": "string"
     },
-    "slug": {
-      "type": "uid",
-      "targetField": "title",
-      "required": true
+    "title2": {
+      "type": "string"
     },
     "paragraph": {
       "type": "richtext"
     },
-    "image": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": ["images", "files", "videos", "audios"]
-    },
-    "addcontent": {
-      "type": "dynamiczone",
-      "components": [
-        "slices.slices-type1",
-        "slices.slices-type2",
-        "slices.slices-type3",
-        "slices.t-i"
-      ]
-    },
-    "cdr_sample_lists": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::cdr-sample-list.cdr-sample-list"
-    },
-    "choosebest": {
+    "steps": {
       "type": "component",
-      "repeatable": false,
-      "component": "landing.hero"
+      "repeatable": true,
+      "component": "slices.slices-type1"
     },
-    "seo": {
+    "fancySteps": {
       "type": "component",
-      "repeatable": false,
-      "component": "shared.seo"
+      "repeatable": true,
+      "component": "slices.slices-type1"
+    },
+    "slug": {
+      "type": "uid",
+      "required": true
     }
   }
 }

@@ -22,28 +22,8 @@
       "repeatable": false,
       "component": "slices.slices-type2"
     },
-    "positiveassessment": {
-      "type": "component",
-      "repeatable": false,
-      "component": "slices.slices-type1"
-    },
-    "knowmore": {
-      "type": "component",
-      "repeatable": false,
-      "component": "landing.hero"
-    },
     "title": {
       "type": "string"
-    },
-    "cdr_sample_links": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::cdr-sample-link.cdr-sample-link"
-    },
-    "pursuing": {
-      "type": "component",
-      "repeatable": false,
-      "component": "slices.slices-type1"
     },
     "shared": {
       "type": "relation",
