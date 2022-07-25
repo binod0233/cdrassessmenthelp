@@ -279,6 +279,20 @@ module.exports = ({ env }) => {
                 title: "Heading 4",
                 class: "ck-heading_heading4",
               },
+              {
+                model: "my_heading",
+                view: {
+                  name: "h2",
+                  attributes: {
+                    class: "my_heading_class",
+                    id: Math.random(),
+                  },
+                },
+                title: "My Heading",
+                class: "ck-heading_heading2",
+                // It needs to be converted before the standard 'heading2'.
+                converterPriority: "high",
+              },
             ],
           },
           // https://ckeditor.com/docs/ckeditor5/latest/features/general-html-support.html
@@ -290,6 +304,15 @@ module.exports = ({ env }) => {
                   sizes: true,
                   loading: true,
                 },
+              },
+              {
+                name: "div",
+                attributes: true,
+              },
+              {
+                name: "h2",
+                attributes: true,
+                options: true,
               },
             ],
           },
