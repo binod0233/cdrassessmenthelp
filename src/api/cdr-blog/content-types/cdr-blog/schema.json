@@ -4,7 +4,8 @@
   "info": {
     "singularName": "cdr-blog",
     "pluralName": "cdr-blogs",
-    "displayName": "cdr-blog"
+    "displayName": "cdr-blog",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -20,6 +21,11 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::shared.shared"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
     }
   }
 }

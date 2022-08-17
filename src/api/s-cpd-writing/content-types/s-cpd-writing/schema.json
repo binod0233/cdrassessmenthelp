@@ -1,0 +1,86 @@
+{
+  "kind": "singleType",
+  "collectionName": "s_cpd_writings",
+  "info": {
+    "singularName": "s-cpd-writing",
+    "pluralName": "s-cpd-writings",
+    "displayName": "s-cpd-writing",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "landing.hero"
+    },
+    "continung": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.slices-type2"
+    },
+    "want": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.slices-type1"
+    },
+    "shared": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::shared.shared"
+    },
+    "what2": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slices.slices-type1"
+    },
+    "whatData": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slices.slices-type1"
+    },
+    "how": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.slices-type1"
+    },
+    "steps": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.slices-type1"
+    },
+    "stepsData": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slices.slices-type1"
+    },
+    "element": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.slices-type2"
+    },
+    "personalData": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slices.slices-type1"
+    },
+    "shareds_2": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::shared.shared"
+    },
+    "what": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.slices-type1"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    }
+  }
+}

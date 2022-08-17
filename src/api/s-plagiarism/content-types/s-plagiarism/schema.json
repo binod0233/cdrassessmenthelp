@@ -1,14 +1,13 @@
 {
   "kind": "singleType",
-  "collectionName": "landings",
+  "collectionName": "s_plagiarisms",
   "info": {
-    "singularName": "landing",
-    "pluralName": "landings",
-    "displayName": "Landing",
-    "description": ""
+    "singularName": "s-plagiarism",
+    "pluralName": "s-plagiarisms",
+    "displayName": "s-plagiarism"
   },
   "options": {
-    "draftAndPublish": false
+    "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
@@ -17,33 +16,32 @@
       "repeatable": false,
       "component": "landing.hero"
     },
-    "title": {
-      "type": "string"
-    },
-    "trackRecord": {
-      "type": "component",
-      "repeatable": true,
-      "component": "slices.slices-type2"
-    },
-    "positive": {
+    "cdr": {
       "type": "component",
       "repeatable": false,
-      "component": "slices.t-i"
-    },
-    "reports_title": {
-      "type": "string"
-    },
-    "steps": {
-      "type": "component",
-      "repeatable": true,
       "component": "slices.slices-type2"
     },
-    "approval": {
+    "why": {
       "type": "component",
       "repeatable": false,
       "component": "slices.slices-type1"
     },
-    "content": {
+    "lets": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.t-i"
+    },
+    "stepsData": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slices.slices-type1"
+    },
+    "whycdr": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.slices-type1"
+    },
+    "whyData": {
       "type": "component",
       "repeatable": true,
       "component": "slices.slices-type2"

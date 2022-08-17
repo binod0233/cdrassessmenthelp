@@ -1,14 +1,14 @@
 {
   "kind": "singleType",
-  "collectionName": "landings",
+  "collectionName": "s_careers",
   "info": {
-    "singularName": "landing",
-    "pluralName": "landings",
-    "displayName": "Landing",
+    "singularName": "s-career",
+    "pluralName": "s-careers",
+    "displayName": "s-career",
     "description": ""
   },
   "options": {
-    "draftAndPublish": false
+    "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
@@ -17,33 +17,42 @@
       "repeatable": false,
       "component": "landing.hero"
     },
-    "title": {
-      "type": "string"
-    },
-    "trackRecord": {
-      "type": "component",
-      "repeatable": true,
-      "component": "slices.slices-type2"
-    },
-    "positive": {
+    "what": {
       "type": "component",
       "repeatable": false,
-      "component": "slices.t-i"
-    },
-    "reports_title": {
-      "type": "string"
-    },
-    "steps": {
-      "type": "component",
-      "repeatable": true,
       "component": "slices.slices-type2"
     },
-    "approval": {
+    "career": {
       "type": "component",
       "repeatable": false,
       "component": "slices.slices-type1"
     },
-    "content": {
+    "shared": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::shared.shared"
+    },
+    "careerEpisode": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.slices-type2"
+    },
+    "introData": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slices.slices-type1"
+    },
+    "benifitData": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slices.p"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.slices-type1"
+    },
+    "featuresData": {
       "type": "component",
       "repeatable": true,
       "component": "slices.slices-type2"
