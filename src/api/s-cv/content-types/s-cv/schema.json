@@ -4,7 +4,8 @@
   "info": {
     "singularName": "s-cv",
     "pluralName": "s-cvs",
-    "displayName": "s-cv"
+    "displayName": "s-cv",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -44,7 +45,7 @@
     "seo": {
       "type": "component",
       "repeatable": false,
-      "component": "slices.slices-type1"
+      "component": "shared.seo"
     }
   }
 }

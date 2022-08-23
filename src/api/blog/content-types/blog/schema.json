@@ -33,9 +33,6 @@
     "content": {
       "type": "richtext"
     },
-    "categories": {
-      "type": "string"
-    },
     "image2": {
       "type": "media",
       "multiple": false,
@@ -47,9 +44,6 @@
         "audios"
       ]
     },
-    "tableofcontent": {
-      "type": "richtext"
-    },
     "shared": {
       "type": "relation",
       "relation": "oneToOne",
@@ -59,6 +53,17 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.seo"
+    },
+    "description": {
+      "type": "text"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Skill Assessment",
+        "Australia Migration",
+        "CDR Service"
+      ]
     }
   }
 }
