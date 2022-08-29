@@ -43,13 +43,18 @@
     "how_data": {
       "displayName": "p",
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "slices.p"
     },
     "free": {
       "type": "component",
       "repeatable": false,
       "component": "slices.slices-type2"
+    },
+    "shareds_2": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::shared.shared"
     }
   }
 }
