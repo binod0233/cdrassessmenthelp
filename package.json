@@ -16,7 +16,7 @@
     "@strapi/plugin-users-permissions": "4.2.2",
     "@strapi/provider-upload-cloudinary": "^4.2.2",
     "@strapi/strapi": "4.2.2",
-    "pg": "^8.7.3",
+    "pg": "^8.8.0",
     "pg-connection-string": "^2.5.0",
     "strapi-plugin-generate-data": "^1.0.16",
     "strapi-plugin-generate-schema": "^0.0.1",
