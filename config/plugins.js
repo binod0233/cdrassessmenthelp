@@ -346,5 +346,11 @@ module.exports = ({ env }) => {
         },
       },
     },
+    "generate-schema": {
+      enabled: true,
+    },
+    "generate-data": {
+      enabled: true,
+    },
   };
 };
