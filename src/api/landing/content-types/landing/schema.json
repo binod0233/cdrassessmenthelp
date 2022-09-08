@@ -17,12 +17,33 @@
       "repeatable": false,
       "component": "landing.hero"
     },
-    "seo": {
+    "cdrImage": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "cdr": {
       "type": "component",
       "repeatable": false,
-      "component": "shared.seo"
+      "component": "slices.slices-type1"
     },
-    "image": {
+    "save": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.slices-type2"
+    },
+    "why": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.slices-type1"
+    },
+    "whyImage": {
       "allowedTypes": [
         "images",
         "files",
@@ -31,6 +52,36 @@
       ],
       "type": "media",
       "multiple": true
+    },
+    "we": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.slices-type1"
+    },
+    "weImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "getting": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.slices-type1"
+    },
+    "gettingData": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slices.slices-type2"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
     }
   }
 }

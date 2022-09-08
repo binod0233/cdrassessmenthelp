@@ -15,78 +15,62 @@
     "hero": {
       "type": "component",
       "repeatable": false,
-      "component": "slices.slices-type2"
-    },
-    "cdrservice": {
-      "type": "component",
-      "repeatable": false,
-      "component": "slices.slices-type1"
-    },
-    "cdr_service_data": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::cdr-service-data.cdr-service-data"
-    },
-    "offer": {
-      "type": "component",
-      "repeatable": true,
-      "component": "slices.slices-type2"
-    },
-    "offer_title": {
-      "type": "string"
-    },
-    "Approval": {
-      "type": "component",
-      "repeatable": false,
       "component": "landing.hero"
     },
-    "our_services": {
+    "professional": {
       "type": "component",
       "repeatable": false,
       "component": "slices.slices-type1"
     },
-    "positiveassessment": {
+    "majorImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "guaranteed": {
       "type": "component",
       "repeatable": false,
       "component": "slices.slices-type1"
     },
-    "positive": {
-      "type": "component",
-      "repeatable": true,
-      "component": "slices.t-i"
-    },
-    "offer_professional": {
-      "type": "component",
-      "repeatable": false,
-      "component": "slices.slices-type1"
-    },
-    "occu_title": {
-      "type": "string"
-    },
-    "occupational_cat": {
-      "type": "component",
-      "repeatable": true,
-      "component": "slices.t-i"
-    },
-    "guidelines": {
-      "type": "component",
-      "repeatable": false,
-      "component": "slices.slices-type1"
-    },
-    "hiring": {
-      "type": "component",
-      "repeatable": false,
-      "component": "landing.hero"
-    },
-    "hiring_data": {
+    "guaranteedData": {
       "type": "component",
       "repeatable": true,
       "component": "slices.slices-type2"
     },
-    "shared": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::shared.shared"
+    "approval": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.slices-type1"
+    },
+    "approvalData": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slices.slices-type2"
+    },
+    "few": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.slices-type1"
+    },
+    "professionalHelp": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.slices-type1"
+    },
+    "fewImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
     },
     "seo": {
       "type": "component",

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "s-stage1",
     "pluralName": "s-stage1s",
-    "displayName": "s-stage1"
+    "displayName": "s-stage1",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,40 +17,20 @@
       "repeatable": false,
       "component": "landing.hero"
     },
-    "stage": {
-      "type": "component",
-      "repeatable": false,
-      "component": "slices.slices-type2"
-    },
     "content": {
       "type": "component",
       "repeatable": true,
       "component": "slices.slices-type1"
     },
-    "shared": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::shared.shared"
-    },
-    "cdr": {
-      "type": "component",
-      "repeatable": false,
-      "component": "slices.slices-type1"
-    },
-    "knowledgeData": {
-      "type": "component",
-      "repeatable": true,
-      "component": "slices.slices-type1"
-    },
-    "why": {
-      "type": "component",
-      "repeatable": false,
-      "component": "slices.slices-type2"
-    },
-    "whycdr": {
-      "type": "component",
-      "repeatable": false,
-      "component": "slices.slices-type1"
+    "engineersImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
     },
     "seo": {
       "type": "component",

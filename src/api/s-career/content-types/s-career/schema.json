@@ -17,45 +17,30 @@
       "repeatable": false,
       "component": "landing.hero"
     },
-    "what": {
-      "type": "component",
-      "repeatable": false,
-      "component": "slices.slices-type2"
-    },
-    "career": {
-      "type": "component",
-      "repeatable": false,
-      "component": "slices.slices-type1"
-    },
-    "shared": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::shared.shared"
-    },
-    "careerEpisode": {
-      "type": "component",
-      "repeatable": false,
-      "component": "slices.slices-type2"
-    },
-    "introData": {
+    "content7": {
       "type": "component",
       "repeatable": true,
       "component": "slices.slices-type1"
     },
-    "benifitData": {
-      "type": "component",
-      "repeatable": true,
-      "component": "slices.p"
-    },
-    "features": {
-      "type": "component",
-      "repeatable": false,
-      "component": "slices.slices-type1"
-    },
-    "featuresData": {
+    "whatData": {
       "type": "component",
       "repeatable": true,
       "component": "slices.slices-type2"
+    },
+    "whatImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "get": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.slices-type1"
     },
     "seo": {
       "type": "component",

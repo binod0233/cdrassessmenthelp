@@ -4,7 +4,8 @@
   "info": {
     "singularName": "s-stage2",
     "pluralName": "s-stage2s",
-    "displayName": "s-stage2"
+    "displayName": "s-stage2",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,40 +17,55 @@
       "repeatable": false,
       "component": "landing.hero"
     },
-    "stage2": {
+    "show": {
       "type": "component",
       "repeatable": false,
-      "component": "slices.t-i"
+      "component": "slices.slices-type1"
     },
-    "content3": {
+    "showImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "choosebest": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.slices-type1"
+    },
+    "required": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.slices-type1"
+    },
+    "requiredImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "requiredData": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slices.slices-type2"
+    },
+    "content2": {
       "type": "component",
       "repeatable": true,
       "component": "slices.slices-type1"
-    },
-    "shared": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::shared.shared"
-    },
-    "trust": {
-      "type": "component",
-      "repeatable": false,
-      "component": "slices.slices-type2"
-    },
-    "competencyData": {
-      "type": "component",
-      "repeatable": true,
-      "component": "slices.p"
     },
     "seo": {
       "type": "component",
       "repeatable": false,
       "component": "shared.seo"
-    },
-    "shared2": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::shared.shared"
     }
   }
 }

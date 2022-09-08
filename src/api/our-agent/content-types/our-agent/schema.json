@@ -12,11 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "hero": {
-      "type": "component",
-      "repeatable": false,
-      "component": "slices.slices-type1"
-    },
     "cdr_agents": {
       "type": "relation",
       "relation": "oneToMany",
@@ -26,11 +21,6 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.seo"
-    },
-    "shared": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::shared.shared"
     }
   }
 }

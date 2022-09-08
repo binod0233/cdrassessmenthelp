@@ -12,33 +12,33 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "content": {
+    "hero": {
       "type": "component",
       "repeatable": false,
       "component": "slices.slices-type2"
     },
-    "title1": {
-      "type": "string"
-    },
-    "title2": {
-      "type": "string"
-    },
-    "paragraph": {
-      "type": "richtext"
-    },
-    "steps": {
-      "type": "component",
-      "repeatable": true,
-      "component": "slices.slices-type1"
-    },
-    "fancySteps": {
-      "type": "component",
-      "repeatable": true,
-      "component": "slices.slices-type1"
-    },
     "slug": {
-      "type": "uid",
-      "required": true
+      "type": "uid"
+    },
+    "data": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.slices-type1"
+    },
+    "cdr": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.slices-type1"
+    },
+    "cdrData": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.slices-type2"
+    },
+    "content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.slices-type1"
     },
     "seo": {
       "type": "component",

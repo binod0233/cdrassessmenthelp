@@ -17,50 +17,20 @@
       "repeatable": false,
       "component": "landing.hero"
     },
-    "summary": {
-      "type": "component",
-      "repeatable": false,
-      "component": "slices.slices-type2"
-    },
-    "what": {
-      "type": "component",
-      "repeatable": false,
-      "component": "slices.slices-type1"
-    },
-    "shared": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::shared.shared"
-    },
-    "element": {
-      "type": "component",
-      "repeatable": false,
-      "component": "slices.slices-type2"
-    },
-    "skillsData": {
+    "content7": {
       "type": "component",
       "repeatable": true,
       "component": "slices.slices-type1"
     },
-    "tips": {
-      "type": "component",
-      "repeatable": false,
-      "component": "slices.slices-type1"
-    },
-    "tipsData": {
-      "type": "component",
-      "repeatable": true,
-      "component": "slices.p"
-    },
-    "why": {
-      "type": "component",
-      "repeatable": false,
-      "component": "slices.slices-type1"
-    },
-    "whyData": {
+    "proData": {
       "type": "component",
       "repeatable": true,
       "component": "slices.slices-type2"
+    },
+    "want": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.slices-type1"
     },
     "seo": {
       "type": "component",

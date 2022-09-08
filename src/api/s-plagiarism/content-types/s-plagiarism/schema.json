@@ -4,7 +4,8 @@
   "info": {
     "singularName": "s-plagiarism",
     "pluralName": "s-plagiarisms",
-    "displayName": "s-plagiarism"
+    "displayName": "s-plagiarism",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,32 +17,12 @@
       "repeatable": false,
       "component": "landing.hero"
     },
-    "cdr": {
-      "type": "component",
-      "repeatable": false,
-      "component": "slices.slices-type2"
-    },
-    "why": {
-      "type": "component",
-      "repeatable": false,
-      "component": "slices.slices-type1"
-    },
-    "lets": {
-      "type": "component",
-      "repeatable": false,
-      "component": "slices.t-i"
-    },
-    "stepsData": {
+    "content": {
       "type": "component",
       "repeatable": true,
       "component": "slices.slices-type1"
     },
-    "whycdr": {
-      "type": "component",
-      "repeatable": false,
-      "component": "slices.slices-type1"
-    },
-    "whyData": {
+    "whatData": {
       "type": "component",
       "repeatable": true,
       "component": "slices.slices-type2"

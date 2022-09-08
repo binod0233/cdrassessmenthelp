@@ -4,7 +4,8 @@
   "info": {
     "singularName": "disclaimer",
     "pluralName": "disclaimers",
-    "displayName": "disclaimer"
+    "displayName": "disclaimer",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,11 +16,6 @@
       "type": "component",
       "repeatable": true,
       "component": "slices.slices-type1"
-    },
-    "shared": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::shared.shared"
     },
     "seo": {
       "type": "component",

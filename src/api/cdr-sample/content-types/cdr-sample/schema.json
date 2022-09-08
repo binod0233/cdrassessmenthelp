@@ -17,44 +17,35 @@
       "repeatable": false,
       "component": "landing.hero"
     },
-    "sample": {
+    "flawless": {
       "type": "component",
       "repeatable": false,
-      "component": "slices.slices-type2"
+      "component": "slices.slices-type1"
     },
-    "title": {
-      "type": "string"
+    "unique": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.slices-type1"
     },
-    "shared": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::shared.shared"
+    "uniqueImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "cdr": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.slices-type1"
     },
     "seo": {
       "type": "component",
       "repeatable": false,
       "component": "shared.seo"
-    },
-    "how": {
-      "type": "component",
-      "repeatable": false,
-      "component": "slices.slices-type1"
-    },
-    "how_data": {
-      "displayName": "p",
-      "type": "component",
-      "repeatable": true,
-      "component": "slices.p"
-    },
-    "free": {
-      "type": "component",
-      "repeatable": false,
-      "component": "slices.slices-type2"
-    },
-    "shareds_2": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::shared.shared"
     }
   }
 }

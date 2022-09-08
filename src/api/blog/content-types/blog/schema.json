@@ -44,11 +44,6 @@
         "audios"
       ]
     },
-    "shared": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::shared.shared"
-    },
     "seo": {
       "type": "component",
       "repeatable": false,

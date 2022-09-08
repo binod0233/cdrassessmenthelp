@@ -17,73 +17,52 @@
       "repeatable": false,
       "component": "landing.hero"
     },
-    "report": {
+    "secure": {
       "type": "component",
       "repeatable": false,
-      "component": "slices.slices-type2"
+      "component": "slices.slices-type1"
     },
     "what": {
       "type": "component",
       "repeatable": false,
       "component": "slices.slices-type1"
     },
-    "stepsData": {
-      "type": "component",
-      "repeatable": true,
-      "component": "slices.slices-type1"
-    },
-    "four": {
-      "type": "component",
-      "repeatable": false,
-      "component": "slices.slices-type1"
-    },
-    "fourData": {
-      "type": "component",
-      "repeatable": true,
-      "component": "slices.slices-type2"
-    },
-    "guaranteed": {
-      "type": "component",
-      "repeatable": false,
-      "component": "slices.slices-type1"
-    },
-    "guaranteedData": {
-      "type": "component",
-      "repeatable": true,
-      "component": "slices.slices-type2"
-    },
-    "shared": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::shared.shared"
-    },
-    "components": {
-      "type": "component",
-      "repeatable": false,
-      "component": "slices.t-i"
-    },
-    "personalData": {
-      "type": "component",
-      "repeatable": true,
-      "component": "slices.slices-type1"
-    },
-    "whatOther": {
-      "type": "component",
-      "repeatable": false,
-      "component": "slices.slices-type1"
-    },
-    "image3": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
+    "whatImage": {
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ]
+      ],
+      "type": "media",
+      "multiple": true
     },
-    "grab": {
+    "writing": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slices.slices-type1"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": false,
+      "component": "slices.slices-type1"
+    },
+    "featuresImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "writingData": {
+      "type": "component",
+      "repeatable": true,
+      "component": "slices.slices-type2"
+    },
+    "experts": {
       "type": "component",
       "repeatable": false,
       "component": "slices.slices-type1"
