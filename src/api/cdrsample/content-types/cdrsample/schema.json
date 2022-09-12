@@ -32,7 +32,7 @@
     },
     "cdrData": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "slices.slices-type2"
     },
     "content": {
