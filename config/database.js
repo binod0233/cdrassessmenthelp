@@ -2,7 +2,7 @@ module.exports = ({ env }) => ({
   connection: {
     client: "postgres",
     connection: {
-     host: env(
+      host: env(
         "DATABASE_HOST",
         "heroku-help.c6r19h8f82ti.us-east-1.rds.amazonaws.com"
       ),
@@ -10,7 +10,9 @@ module.exports = ({ env }) => ({
       database: env("DATABASE_NAME", "postgres"),
       user: env("DATABASE_USERNAME", "postgres"),
       password: env("DATABASE_PASSWORD", "Copenned123"),
-      ssl: env.bool("DATABASE_SSL", false),
+     ssl: {
+        rejectUnauthorized: false,
+      },
     },
   },
 });
