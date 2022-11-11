@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_slices_t_mis",
+  "info": {
+    "displayName": "t-mi"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

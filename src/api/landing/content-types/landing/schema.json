@@ -15,68 +15,21 @@
     "hero": {
       "type": "component",
       "repeatable": false,
-      "component": "landing.hero"
+      "component": "slices.slices-type1"
     },
-    "cdrImage": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
+    "section": {
+      "type": "dynamiczone",
+      "components": [
+        "section.section1"
       ]
     },
-    "cdr": {
-      "type": "component",
-      "repeatable": false,
-      "component": "slices.slices-type1"
-    },
-    "save": {
-      "type": "component",
-      "repeatable": false,
-      "component": "slices.slices-type2"
-    },
-    "why": {
-      "type": "component",
-      "repeatable": false,
-      "component": "slices.slices-type1"
-    },
-    "whyImage": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": true
-    },
-    "we": {
-      "type": "component",
-      "repeatable": false,
-      "component": "slices.slices-type1"
-    },
-    "weImage": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": true
-    },
-    "getting": {
-      "type": "component",
-      "repeatable": false,
-      "component": "slices.slices-type1"
-    },
-    "gettingData": {
-      "type": "component",
-      "repeatable": true,
-      "component": "slices.slices-type2"
+    "slices": {
+      "type": "dynamiczone",
+      "components": [
+        "slices.slices-type2",
+        "slices.slices-type1",
+        "slices.t-mi"
+      ]
     },
     "seo": {
       "type": "component",
